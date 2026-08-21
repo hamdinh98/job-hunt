@@ -1,0 +1,18 @@
+date,company,title,location,source_url,status,notes
+# Every job ever put in front of Hamdi. The routine checks this file before sending
+# anything, and appends to it after. A job appearing here is NEVER sent again.
+#
+# status: sent = included in a digest | applied = Hamdi applied himself | rejected = employer said no
+#
+# Seed rows below are NOT from a digest. They were found in Hamdi's Gmail on 2026-08-21:
+# applications he made himself between 18-21 Aug. Recorded so no future digest returns them.
+2026-08-21,Scaleway,Full Stack Software Engineer (Python),FR,,applied,Ack via Lever
+2026-08-21,Koppla,Product Engineer (all genders),DE,,applied,Ack via Personio
+2026-08-20,BlaBlaCar,Junior Backend Engineer - Care,FR,,applied,Ack via Lever
+2026-08-19,Proton,Backend Engineer - Marketing Technology,CH,,rejected,Rejected 2026-08-19
+2026-08-19,Alan,unknown role,FR,,applied,Ack via Ashby - role not named in ack
+2026-08-19,Electra,unknown role,FR,,applied,Ack via Teamtailor - role not named in ack
+2026-08-19,Elastic,Software Engineer II - Full Stack - Web Engineering,NL,,applied,SECURITY CODE NEVER RESUBMITTED - may not have gone through
+2026-08-19,TheFork,Fullstack Software Engineer,FR,,applied,Ack via Greenhouse
+2026-08-19,Emburse,Software Engineer III,US,,applied,Ack via Lever
+2026-08-19,Mercanis,Backend Engineer (m/f/d),DE,,applied,Ack in German - confirm no German requirement
