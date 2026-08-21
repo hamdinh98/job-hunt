@@ -12,6 +12,19 @@ container that is wiped after every run, so anything it needs to remember lives 
 | `run-log.md` | Short record of each run — counts, breakage, anything left half-done. |
 | `job-hunt-prompt.md` | The prompt the scheduled task runs. Edit here, paste into the schedule. |
 
+## Setup
+
+This repo must be attached as the **source repo of the environment** the scheduled
+task runs in. The container then clones it at start and injects git credentials, so
+the routine reads the files locally and pushes straight back — no tokens in the
+prompt, nothing to rotate, and the repo can stay private.
+
+The routine commits directly to the default branch. It never opens a pull request:
+the next run reads the default branch, so a side branch would strand the memory.
+
+The environment also needs network access to the job boards. With the restricted
+default preset only GitHub is reachable, which is what blocked the 2026-08-21 run.
+
 ## How the directory works
 
 The Greenhouse / Lever / Ashby APIs have no search endpoint. You cannot ask them
