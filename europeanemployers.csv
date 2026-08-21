@@ -1,0 +1,102 @@
+company,country,board,slug,status,last_checked,jobs_seen,notes
+# STATUS VALUES:
+#   candidate = never successfully tested. board+slug are GUESSES, not facts.
+#   verified  = fetched successfully on last_checked. board+slug are confirmed.
+#   dead      = confirmed 404 on all three boards. slug is wrong or company not on these ATSes.
+#   no-api    = company exists but uses its own careers site / an ATS without a public JSON API.
+#   blocked   = could not test (network failure). NOT evidence of anything. Re-test next run.
+#
+# Every row below is status=candidate. Nothing here has been verified — the 2026-08-21 run
+# could not reach the internet. board/slug columns are best guesses to be tested, not answers.
+# A row only becomes trustworthy once status=verified and last_checked is recent.
+Doctolib,FR,greenhouse,doctolib,candidate,,,
+Back Market,FR,greenhouse,backmarket,candidate,,,
+Qonto,FR,lever,qonto,candidate,,,
+Payfit,FR,greenhouse,payfit,candidate,,,
+Alan,FR,ashby,alan,candidate,,,Hamdi applied 2026-08-19
+Swile,FR,greenhouse,swile,candidate,,,
+Spendesk,FR,greenhouse,spendesk,candidate,,,
+Aircall,FR,greenhouse,aircall,candidate,,,
+Contentsquare,FR,greenhouse,contentsquare,candidate,,,
+Dataiku,FR,greenhouse,dataiku,candidate,,,
+Algolia,FR,greenhouse,algolia,candidate,,,
+Sorare,FR,lever,sorare,candidate,,,
+Ledger,FR,lever,ledger,candidate,,,
+Pennylane,FR,ashby,pennylane,candidate,,,
+Gorgias,FR,ashby,gorgias,candidate,,,
+Mirakl,FR,greenhouse,mirakl,candidate,,,B2B marketplace platform
+ManoMano,FR,greenhouse,manomano,candidate,,,E-commerce marketplace
+Leboncoin,FR,greenhouse,leboncoin,candidate,,,Large FR classifieds
+Cdiscount,FR,greenhouse,cdiscount,candidate,,,E-commerce
+Veepee,FR,greenhouse,veepee,candidate,,,E-commerce
+Showroomprive,FR,greenhouse,showroomprive,candidate,,,E-commerce
+Vestiaire Collective,FR,greenhouse,vestiairecollective,candidate,,,E-commerce marketplace
+PrestaShop,FR,greenhouse,prestashop,candidate,,,PHP e-commerce vendor
+Deezer,FR,greenhouse,deezer,candidate,,,
+Dailymotion,FR,greenhouse,dailymotion,candidate,,,
+Ankama,FR,greenhouse,ankama,candidate,,,Games studio
+Malt,FR,greenhouse,malt,candidate,,,Freelance marketplace
+Younited,FR,greenhouse,younited,candidate,,,Fintech
+Scaleway,FR,lever,scaleway,candidate,,,Hamdi applied 2026-08-21
+OVHcloud,FR,greenhouse,ovhcloud,candidate,,,
+Criteo,FR,greenhouse,criteo,candidate,,,
+Believe,FR,greenhouse,believe,candidate,,,
+Voodoo,FR,lever,voodoo,candidate,,,
+BlaBlaCar,FR,lever,blablacar,candidate,,,Hamdi applied 2026-08-19
+TheFork,FR,greenhouse,thefork,candidate,,,Hamdi applied 2026-08-19
+Electra,FR,,,candidate,,,Uses Teamtailor - check for public API
+Wonderbox,FR,greenhouse,wonderbox,candidate,,,
+Sellsy,FR,greenhouse,sellsy,candidate,,,SaaS CRM
+Odoo,BE,,,candidate,,,Own careers site - likely no-api
+Teamleader,BE,greenhouse,teamleader,candidate,,,SaaS
+Deliverect,BE,greenhouse,deliverect,candidate,,,Food-tech integrations
+Showpad,BE,greenhouse,showpad,candidate,,,
+Collibra,BE,greenhouse,collibra,candidate,,,
+Silverfin,BE,greenhouse,silverfin,candidate,,,
+Intigriti,BE,greenhouse,intigriti,candidate,,,Security platform
+Lightspeed,BE,greenhouse,lightspeed,candidate,,,
+Unifiedpost,BE,greenhouse,unifiedpost,candidate,,,
+Skyline Communications,BE,greenhouse,skyline,candidate,,,
+Mediahuis,BE,greenhouse,mediahuis,candidate,,,
+Glovo,ES,greenhouse,glovo,candidate,,,
+Cabify,ES,greenhouse,cabify,candidate,,,
+Jobandtalent,ES,greenhouse,jobandtalent,candidate,,,
+Factorial,ES,greenhouse,factorial,candidate,,,HR SaaS
+TravelPerk,ES,greenhouse,travelperk,candidate,,,
+Wallapop,ES,greenhouse,wallapop,candidate,,,Marketplace
+Idealista,ES,greenhouse,idealista,candidate,,,Property portal
+Fever,ES,greenhouse,fever,candidate,,,
+Seedtag,ES,greenhouse,seedtag,candidate,,,
+Paack,ES,greenhouse,paack,candidate,,,Logistics - relevant domain
+Red Points,ES,greenhouse,redpoints,candidate,,,
+Typeform,ES,greenhouse,typeform,candidate,,,
+Holded,ES,greenhouse,holded,candidate,,,
+Marfeel,ES,greenhouse,marfeel,candidate,,,
+Amadeus,ES,greenhouse,amadeus,candidate,,,Travel tech
+OutSystems,PT,greenhouse,outsystems,candidate,,,
+Unbabel,PT,lever,unbabel,candidate,,,
+Feedzai,PT,greenhouse,feedzai,candidate,,,
+Talkdesk,PT,greenhouse,talkdesk,candidate,,,
+Sword Health,PT,greenhouse,swordhealth,candidate,,,
+Farfetch,PT,greenhouse,farfetch,candidate,,,E-commerce
+Remote,PT,greenhouse,remotecom,candidate,,,Global employment platform - hires worldwide
+Docplanner,ES,greenhouse,docplanner,candidate,,,
+Zalando,DE,greenhouse,zalando,candidate,,,DE - German often required
+Personio,DE,greenhouse,personio,candidate,,,
+Celonis,DE,greenhouse,celonis,candidate,,,
+SumUp,DE,greenhouse,sumup,candidate,,,
+N26,DE,greenhouse,n26,candidate,,,
+Trivago,DE,greenhouse,trivago,candidate,,,
+HelloFresh,DE,greenhouse,hellofresh,candidate,,,
+Delivery Hero,DE,greenhouse,deliveryhero,candidate,,,
+Contentful,DE,greenhouse,contentful,candidate,,,
+GetYourGuide,DE,greenhouse,getyourguide,candidate,,,
+Flix,DE,greenhouse,flixbus,candidate,,,
+Choco,DE,greenhouse,choco,candidate,,,
+Wefox,DE,greenhouse,wefox,candidate,,,
+Solaris,DE,greenhouse,solarisbank,candidate,,,
+Mercanis,DE,,,candidate,,,Uses Personio. Hamdi applied 2026-08-19 - ack was in German
+Koppla,DE,,,candidate,,,Uses Personio. Hamdi applied 2026-08-21
+Proton,CH,greenhouse,proton,candidate,,,Not a target country. REJECTED Hamdi 2026-08-19
+Elastic,NL,greenhouse,elastic,candidate,,,Not a target country but hires remote-EU. Hamdi applied 2026-08-19
+Emburse,US,lever,emburse,candidate,,,Not EU-HQ. Hamdi applied 2026-08-19
