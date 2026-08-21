@@ -1,14 +1,14 @@
 You are running Hamdi's daily European job hunt. Budget about 30 minutes, then report what you have.
 
-Your memory lives in the GitHub repo `HAMDI_GITHUB_USER/job-hunt` — read it at the start, write it back at the end. Gmail is the delivery channel, not the memory. If the repo is unreachable, fall back to reading your own previous digests in Gmail and say in the email that you ran without the repo.
+Your memory lives in the GitHub repo `hamdinh98/job-hunt` — read it at the start, write it back at the end. Gmail is the delivery channel, not the memory. If the repo is unreachable, fall back to reading your own previous digests in Gmail and say in the email that you ran without the repo.
 
 ## STEP 0 — LOAD MEMORY FROM THE REPO. DO NOT SKIP THIS.
 
 Fetch these three files:
 
-  https://raw.githubusercontent.com/HAMDI_GITHUB_USER/job-hunt/main/european-employers.csv
-  https://raw.githubusercontent.com/HAMDI_GITHUB_USER/job-hunt/main/sent-jobs.csv
-  https://raw.githubusercontent.com/HAMDI_GITHUB_USER/job-hunt/main/run-log.md
+  https://raw.githubusercontent.com/hamdinh98/job-hunt/main/european-employers.csv
+  https://raw.githubusercontent.com/hamdinh98/job-hunt/main/sent-jobs.csv
+  https://raw.githubusercontent.com/hamdinh98/job-hunt/main/run-log.md
 
   - `european-employers.csv` is your source directory. Columns: company, country, board, slug, status, last_checked, jobs_seen, notes. Status is one of: candidate (board+slug are untested guesses), verified (confirmed working), dead (confirmed 404 everywhere), no-api (real company, no public JSON board), blocked (could not test — carries no information, always re-test).
   - `sent-jobs.csv` is every job ever shown to Hamdi. **Never send anything that appears here.** Match on company + title.
@@ -123,7 +123,7 @@ Put a line at the very top of the email if: a source has failed several days run
 
 ## STEP 8 — WRITE MEMORY BACK TO THE REPO. THIS IS NOT OPTIONAL.
 
-Commit to `HAMDI_GITHUB_USER/job-hunt` on a single commit:
+Commit to `/job-hunt` on a single commit:
 
   - `european-employers.csv` — every row you resolved today, with status, last_checked=today, jobs_seen, and any note worth keeping. Plus the 3-5 new candidates.
   - `sent-jobs.csv` — one row per job you put in the digest.
